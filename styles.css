@@ -5,20 +5,18 @@
 
 
 
-.grid {
-  
-  width: 100vw;
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
   height: 100vh;
 }
 
-.row1 {
-  display: flex;
-  width: 100vw;
-  height: 6.25%;
-}
 
 .cell {
-  width: 6.25%;
-  height: 100%;
   border: 1px solid black;
 }
+
+
+
+
